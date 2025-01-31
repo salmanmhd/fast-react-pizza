@@ -43,3 +43,7 @@ function Cart() {
 }
 
 export default Cart;
+
+function Heading({ text }) {
+  return <h2 className="mt-7 text-xl font-semibold">{text}</h2>;
+}
