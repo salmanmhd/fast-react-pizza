@@ -80,7 +80,7 @@ function CreateOrder() {
               className="input w-full "
               type="text"
               name="address"
-              value={address}
+              defaultAddress={address}
               disabled={isLoadingAddress}
               required
             />
